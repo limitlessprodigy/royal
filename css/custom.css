@@ -7,3 +7,43 @@ Created:December 2014
 License URI:http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
+.btn-default {
+  background-color:#194378;
+border-color: #194378;
+}
+
+.btn-xl{
+  background-color:#194378;
+border-color: #194378;
+}
+
+
+.default-bg{
+  background-color: #194378;
+}
+
+.text-default{
+  color:#194378
+}
+
+a{
+  color:#194378
+}
+
+.default-translucent-bg:after{
+  background-color:rgba(25, 67, 120, 0.7);
+}
+
+.icon.default-bg {
+    background-color: #194378;
+    color: #ffffff;
+}
+
+element.style {
+    background: #194378;
+}
+
+.header-top.colored {
+    background-color: #194378;
+    border-bottom: 1px solid #194378;
+}
