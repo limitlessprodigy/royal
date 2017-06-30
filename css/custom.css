@@ -39,7 +39,7 @@ a{
     color: #ffffff;
 }
 
-element.style {
+.element.style {
     background: #194378;
 }
 
@@ -63,4 +63,8 @@ element.style {
 
 .content-slider-with-large-controls .owl-buttons .owl-prev:after, .content-slider-with-large-controls-autoplay .owl-buttons .owl-prev:after {
     color: #000000;
+}
+
+.page-loader-6 .pace .pace-activity {
+  background: #194378;
 }
