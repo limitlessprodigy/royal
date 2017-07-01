@@ -11,6 +11,14 @@
 (function($){
 	$(document).ready(function(){
 
+		<script src="plugins/jquery.min.js"></script>
+		<script src="plugins/jquery.lettering.js"></script>
+		<script>
+		$(document).ready(function() {
+			$(".curve").lettering();
+		});
+		</script>
+		
 		// Notify Plugin - The below code (until line 42) is used for demonstration purposes only
 		//-----------------------------------------------
 		if (($(".main-navigation.onclick").length>0) && !Modernizr.touch ){
@@ -40,7 +48,6 @@
 					x: 20
 				}
 			}); // End Notify Plugin - The above code (from line 14) is used for demonstration purposes only
-
 		};
 	}); // End document ready
 
