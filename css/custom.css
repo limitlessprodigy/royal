@@ -501,6 +501,12 @@ a {
 .mustardy {
   color: #f0ad4e;
 }
+
 .whale {
   color: #8900FF;
+}
+
+.pv-50 {
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
