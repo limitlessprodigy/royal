@@ -491,3 +491,16 @@ a {
   left: 761.88px;
   top: 134.32px;
 }
+
+.border2 {
+  border: solid;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.mustardy {
+  color: #f0ad4e;
+}
+.whale {
+  color: #8900FF;
+}

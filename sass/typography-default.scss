@@ -1,18 +1,17 @@
 // Core variables and mixins
 @import 'variables';
 @import "mixins";
-
 /* 1 Typography
 ----------------------------------------------------------------------------- */
 /*Fonts
 ---------------------------------- */
+.navbar .navbar-nav,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-.navbar .navbar-nav {
+h6 {
   font-family: $headings-font-family;
 }
 
@@ -182,12 +181,13 @@ p.large {
 a {
   color: $base-color;
   @include transition(all 0.2s ease-in-out);
+
   &:hover {
     color: $base-color-hover;
   }
 
-  &:focus,
-  &:active {
+  &:active,
+  &:focus {
     outline: none;
     color: $base-color-hover;
   }
@@ -196,6 +196,7 @@ a {
 .link-dark {
   color: $gray-dark;
   text-decoration: none!important;
+
   &:hover {
     color: $gray-dark;
     text-decoration: underline!important;
@@ -205,6 +206,7 @@ a {
 .dark .footer .link-dark {
   color: $gray;
   text-decoration: none!important;
+
   &:hover {
     color: $gray;
     text-decoration: underline!important;
@@ -214,6 +216,7 @@ a {
 .link-light {
   color: $white;
   text-decoration: none!important;
+
   &:hover {
     color: $white;
     text-decoration: underline!important;
@@ -223,10 +226,11 @@ a {
 blockquote {
   border-left: none;
   display: inline-block;
-  margin: 20px auto 20px;
+  margin: 20px auto;
   font-size: 16px;
   position: relative;
   padding: 10px 25px;
+
   &:after {
     content: "“";
     width: 25px;
@@ -236,7 +240,7 @@ blockquote {
     font-family: $font-family-pt-serif;
     position: absolute;
     top: 12px;
-    left: 0px;
+    left: 0;
     color: $gray-lighter;
   }
 }
@@ -249,6 +253,7 @@ blockquote {
 
 blockquote.inline {
   padding: 0;
+
   p {
     width: 60%;
     display: inline-block;
@@ -266,17 +271,17 @@ blockquote.inline {
   }
 }
 
-mark,
-.mark {
+.mark,
+mark {
   background-color: $base-color;
   color: $white;
 }
 
 pre {
   padding: 20px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 .text-muted {
