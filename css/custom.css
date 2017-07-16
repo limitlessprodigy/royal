@@ -523,3 +523,18 @@ a {
   color: #ffffff;
   font-size: 60px;
 }
+
+.aff {
+  border-color: #D2B48C;
+  background-color: #D2B48C;
+  color: #ffffff;
+  border-radius: 35px;
+  margin-left: 55px;
+}
+.premium2 {
+  color: green;
+}
+
+.premium3 {
+  color: blue;
+}
